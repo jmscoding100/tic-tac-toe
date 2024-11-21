@@ -1,0 +1,53 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(238, 191, 147);
+}
+
+
+.blue{
+    color: blue;
+}
+
+.game-board{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 450px;
+}
+
+.cell{
+    width: 150px;
+    height: 150px;
+    font-size: 60px;
+    background-color: white;
+    box-shadow: 0 0 0 1px #333;
+    cursor: pointer;
+    line-height: 100px;
+    text-align: center;
+}
+
+.cell:hover{
+    background-color: #eee;
+}
+
+.red{
+    color: red;
+}
+
+
+
+.wins{
+    text-decoration: underline;
+}
+
+.win-count{
+    padding: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #005a9c;
+    border-radius: 5px;
+    text-align: left;
+}
